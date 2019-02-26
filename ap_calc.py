@@ -176,7 +176,7 @@ def calc26(mac_address, name, mr):
     #Mac Address Breakdown
     mac_calc = mac_address[15:]
     mac_extractor_front = mac_address[2:6]
-    mac_extractor_back = mac_address[5:15]
+    mac_extractor_back = mac_address[8:15]
     static_first_octet = "02"
 
     #Initial Mac Addresses
